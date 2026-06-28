@@ -4,6 +4,9 @@
   "packages": {
     "python": "3.13"
   },
+  "build": {
+    "buildCommand": "chmod +x dist/bombsquad_headless"
+  },
   "deploy": {
     "startCommand": "python3 bombsquad_server --noninteractive"
   }
